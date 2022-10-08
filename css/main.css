@@ -1,0 +1,11 @@
+
+.topcoment {
+    background-color: rgb(24, 26, 145);
+    color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+}
