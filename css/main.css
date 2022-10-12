@@ -23,3 +23,27 @@
     padding-top: 40px;
     font-family: 'Roboto', sans-serif;
 }
+footer {
+    margin-top: 50px;
+}
+.tycfooter{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.titulotyc {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.subtitulotyc {
+    padding: 20px;
+    text-align: center;
+}
+.tycparrafo {
+    text-align: justify;
+    padding: 20px;
+    border-left: 20px;
+    border-right: 20px;
+}
