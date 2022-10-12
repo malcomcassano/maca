@@ -53,6 +53,7 @@
     text-align: justify;
     padding-left: 250px;
     padding-top: 40px;
+    padding-bottom: 40px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -61,6 +62,9 @@
     text-align: center;
     padding-top: 40px;
     margin: 50px;
+    /* flexbox promociones */
+    display: flex;
+    justify-content: space-around;
 }
 
 
@@ -97,4 +101,19 @@ footer {
 .logored1 {
     width: 50px;
     height: 50px;
+}
+/* texto pagina formulario */
+.text-form {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* texto en pagina quienes somos */
+.texto-somos {
+    margin-left: 10px;
+    padding: 10px;
+}
+.texto-somos-parrafo {
+    text-align: justify;
 }
