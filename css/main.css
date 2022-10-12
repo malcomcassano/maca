@@ -1,4 +1,4 @@
-
+/* comentario en el encabezado */
 .topcoment {
     background-color: rgb(24, 26, 145);
     color: rgb(255, 255, 255);
@@ -12,9 +12,41 @@
 /* logo encabezado */
 .logo {
     text-align: center;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
+
+/* animacion logo */
+.logo:hover {
+        animation-name: rotar;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in-out;
+}
+
+@keyframes rotation {
+       0% {
+           transform: translateY(-500px);
+       }
+       50% {
+           transform: translateY(0);
+       }
+       100% {
+           transform: translateY(-500px);
+       }
+}
+@keyframes rotar {
+       0% {
+           transform: rotate(0);
+       }
+       50% {
+           transform: rotate(80deg);
+       }
+       100% {
+           transform: rotate(360deg);
+       }
+}
+
 /* formulario */
 .formulario {
     background-color: rgb(185, 185, 185);
@@ -22,6 +54,8 @@
     padding-left: 250px;
     padding-top: 40px;
     font-family: 'Roboto', sans-serif;
+
+    /* footer */
 }
 footer {
     margin-top: 50px;
@@ -46,4 +80,13 @@ footer {
     padding: 20px;
     border-left: 20px;
     border-right: 20px;
+}
+
+/* logos redes pie de pagina */
+.logosredes {
+    padding: 5px;
+}
+.logored1 {
+    width: 50px;
+    height: 50px;
 }
