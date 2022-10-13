@@ -117,3 +117,41 @@ footer {
 .texto-somos-parrafo {
     text-align: justify;
 }
+
+/* PAGINA PRODUCTOS */
+.tituloprod {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.contenedor {
+    border: solid 1px black;
+    background-color: hsla(0, 2%, 73%, 0.616);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.Canavis {
+    background-color: #ffffff
+}
+.Coco {
+    background-color: #ffffff
+}
+.Lavanda {
+    background-color: #ffffff
+}
+.Jazmin {
+    background-color: #ffffff
+}
+.Magnolia {
+    background-color: #ffffff
+}
+.Manzana {
+    background-color: #ffffff
+}
+.linkprod {
+    text-decoration: none;
+    margin-left: 5px;
+    text-align: center;
+}
