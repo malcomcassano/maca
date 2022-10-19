@@ -85,6 +85,21 @@
     }
 }
 
+/* fotos productos */
+.publi-productos {
+    text-align: center;
+    padding-top: 40px;
+    margin: 50px;
+    /* flexbox promociones */
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 1000px) {
+    .publi-productos {
+        flex-direction: column;
+    }
+}
 
 /* footer */
 footer {
