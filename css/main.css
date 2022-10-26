@@ -65,7 +65,7 @@
 
 @media (max-width: 750px) {
     .formulario {
-        padding-left: 0px;
+        padding-left: 20px;
     }
 }
 
@@ -79,9 +79,11 @@
     justify-content: space-around;
 }
 
-@media (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     .promociones {
         flex-direction: column;
+        width: auto;
+        margin: auto;
     }
 }
 
@@ -182,4 +184,10 @@ footer {
     text-decoration: none;
     margin-left: 5px;
     text-align: center;
+}
+
+@media (max-width: 450px) {
+    .mercadopagologo {
+        width: -webkit-fill-available;
+    }
 }
