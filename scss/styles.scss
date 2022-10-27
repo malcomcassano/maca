@@ -8,186 +8,186 @@
     flex-direction: row;
     justify-content: center;
     padding: 15px;
-}
-
-/* logo encabezado */
-.logo {
+  }
+  
+  /* logo encabezado */
+  .logo {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
-}
-
-/* animacion logo */
-.logo:hover {
+  }
+  
+  /* animacion logo */
+  .logo:hover {
     animation-name: rotar;
     animation-duration: 2s;
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
-}
-
-@keyframes rotation {
+  }
+  
+  @keyframes rotation {
     0% {
         transform: translateY(-500px);
     }
-
+  
     50% {
         transform: translateY(0);
     }
-
+  
     100% {
         transform: translateY(-500px);
     }
-}
-
-@keyframes rotar {
+  }
+  
+  @keyframes rotar {
     0% {
         transform: rotate(0);
     }
-
+  
     50% {
         transform: rotate(80deg);
     }
-
+  
     100% {
         transform: rotate(360deg);
     }
-}
-
-/* formulario */
-.formulario {
+  }
+  
+  /* formulario */
+  .formulario {
     background-color: rgb(185, 185, 185);
     text-align: justify;
     padding-left: 250px;
     padding-top: 40px;
     padding-bottom: 40px;
     font-family: 'Roboto', sans-serif;
-}
-
-@media (max-width: 750px) {
+  }
+  
+  @media (max-width: 750px) {
     .formulario {
         padding-left: 20px;
     }
-}
-
-/* PROMOCIONES */
-.promociones {
+  }
+  
+  /* PROMOCIONES */
+  .promociones {
     text-align: center;
     padding-top: 40px;
     margin: 50px;
     /* flexbox promociones */
     display: flex;
     justify-content: space-around;
-}
-
-@media only screen and (max-width: 1200px) {
+  }
+  
+  @media only screen and (max-width: 1200px) {
     .promociones {
         flex-direction: column;
         width: auto;
         margin: auto;
     }
-}
-
-/* fotos productos */
-.publi-productos {
+  }
+  
+  /* fotos productos */
+  .publi-productos {
     text-align: center;
     padding-top: 40px;
     margin: 50px;
     /* flexbox promociones */
     display: flex;
     justify-content: space-around;
-}
-
-@media (max-width: 1000px) {
+  }
+  
+  @media (max-width: 1000px) {
     .publi-productos {
         flex-direction: column;
     }
-}
-
-/* footer */
-footer {
+  }
+  
+  /* footer */
+  footer {
     margin-top: 50px;
-}
-
-.tycfooter {
+  }
+  
+  .tycfooter {
     text-decoration: none;
     color: black;
     font-size: 30px;
-}
-
-.titulotyc {
+  }
+  
+  .titulotyc {
     text-align: center;
     padding: 20px;
     margin-top: 20px;
     font-family: 'Times New Roman', Times, serif;
-}
-
-.subtitulotyc {
+  }
+  
+  .subtitulotyc {
     padding: 20px;
     text-align: center;
-}
-
-.tycparrafo {
+  }
+  
+  .tycparrafo {
     text-align: justify;
     padding: 20px;
     border-left: 20px;
     border-right: 20px;
-}
-
-/* logos redes pie de pagina */
-.logosredes {
+  }
+  
+  /* logos redes pie de pagina */
+  .logosredes {
     padding: 5px;
-}
-
-.logored1 {
+  }
+  
+  .logored1 {
     width: 50px;
     height: 50px;
-}
-
-/* texto pagina formulario */
-.text-form {
+  }
+  
+  /* texto pagina formulario */
+  .text-form {
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-/* texto en pagina quienes somos */
-.texto-somos {
+  }
+  
+  /* texto en pagina quienes somos */
+  .texto-somos {
     margin-left: 10px;
     padding: 10px;
-}
-
-.texto-somos-parrafo {
+  }
+  
+  .texto-somos-parrafo {
     text-align: justify;
-}
-
-/* PAGINA PRODUCTOS */
-.tituloprod {
+  }
+  
+  /* PAGINA PRODUCTOS */
+  .tituloprod {
     margin-left: 10px;
     padding: 10px;
-}
-
-.contenedor {
+  }
+  
+  .contenedor {
     border: solid 1px black;
     background-color: hsla(0, 2%, 73%, 0.616);
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left: 30px;
     margin-right: 30px;
-}
-
-.productos-color {
+  }
+  
+  .productos-color {
     background-color: #ffffff
-}
-
-.linkprod {
+  }
+  
+  .linkprod {
     text-decoration: none;
     margin-left: 5px;
     text-align: center;
-}
-
-@media (max-width: 450px) {
+  }
+  
+  @media (max-width: 450px) {
     .mercadopagologo {
         width: -webkit-fill-available;
     }
-}
+  }
