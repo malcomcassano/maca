@@ -1,3 +1,5 @@
+$pix: 10px;
+
 /* comentario en el encabezado */
 .topcoment {
     background-color: rgb(24, 26, 145);
@@ -13,8 +15,8 @@
   /* logo encabezado */
   .logo {
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: $pix*4;
+    padding-bottom: $pix*4;
   }
   
   /* animacion logo */
@@ -57,29 +59,29 @@
   .formulario {
     background-color: rgb(185, 185, 185);
     text-align: justify;
-    padding-left: 250px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-left: $pix*25;
+    padding-top: $pix*4;
+    padding-bottom: $pix*4;
     font-family: 'Roboto', sans-serif;
   }
   
   @media (max-width: 750px) {
     .formulario {
-        padding-left: 20px;
+        padding-left: $pix*2;
     }
   }
   
   /* PROMOCIONES */
   .promociones {
     text-align: center;
-    padding-top: 40px;
-    margin: 50px;
+    padding-top: $pix*4;
+    margin: $pix*5;
     /* flexbox promociones */
     display: flex;
     justify-content: space-around;
   }
   
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: $pix*120) {
     .promociones {
         flex-direction: column;
         width: auto;
@@ -90,14 +92,14 @@
   /* fotos productos */
   .publi-productos {
     text-align: center;
-    padding-top: 40px;
-    margin: 50px;
+    padding-top: $pix*4;
+    margin: $pix*5;
     /* flexbox promociones */
     display: flex;
     justify-content: space-around;
   }
   
-  @media (max-width: 1000px) {
+  @media (max-width: $pix*10) {
     .publi-productos {
         flex-direction: column;
     }
@@ -105,32 +107,32 @@
   
   /* footer */
   footer {
-    margin-top: 50px;
+    margin-top: $pix*5;
   }
   
   .tycfooter {
     text-decoration: none;
     color: black;
-    font-size: 30px;
+    font-size: $pix*3;
   }
   
   .titulotyc {
     text-align: center;
-    padding: 20px;
-    margin-top: 20px;
+    padding: $pix*2;
+    margin-top: $pix*2;
     font-family: 'Times New Roman', Times, serif;
   }
   
   .subtitulotyc {
-    padding: 20px;
+    padding: $pix*2;
     text-align: center;
   }
   
   .tycparrafo {
     text-align: justify;
-    padding: 20px;
-    border-left: 20px;
-    border-right: 20px;
+    padding: $pix*2;
+    border-left: $pix*2;
+    border-right: $pix*2;
   }
   
   /* logos redes pie de pagina */
@@ -139,22 +141,22 @@
   }
   
   .logored1 {
-    width: 50px;
-    height: 50px;
+    width: $pix*5;
+    height: $pix*5;
   }
   
   /* texto pagina formulario */
   .text-form {
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-left: $pix;
+    margin-top: $pix;
+    margin-bottom: $pix;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
   /* texto en pagina quienes somos */
   .texto-somos {
-    margin-left: 10px;
-    padding: 10px;
+    margin-left: $pix;
+    padding: $pix;
   }
   
   .texto-somos-parrafo {
@@ -163,8 +165,8 @@
   
   /* PAGINA PRODUCTOS */
   .tituloprod {
-    margin-left: 10px;
-    padding: 10px;
+    margin-left: $pix;
+    padding: $pix;
   }
   
   .contenedor {
@@ -172,8 +174,8 @@
     background-color: hsla(0, 2%, 73%, 0.616);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: $pix*3;
+    margin-right: $pix*3;
   }
   
   .productos-color {
@@ -186,7 +188,7 @@
     text-align: center;
   }
   
-  @media (max-width: 450px) {
+  @media (max-width: $pix*45) {
     .mercadopagologo {
         width: -webkit-fill-available;
     }

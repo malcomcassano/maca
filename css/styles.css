@@ -75,7 +75,7 @@
   display: flex;
   justify-content: space-around; }
 
-@media (max-width: 1000px) {
+@media (max-width: 100px) {
   .publi-productos {
     flex-direction: column; } }
 
