@@ -54,8 +54,8 @@
 /* PROMOCIONES */
 .promociones {
   text-align: center;
-  padding-top: 40px;
-  margin: 50px;
+  padding-top: 20px;
+  margin: 30px;
   /* flexbox promociones */
   display: flex;
   justify-content: space-around; }
@@ -64,7 +64,8 @@
   .promociones {
     flex-direction: column;
     width: auto;
-    margin: auto; } }
+    margin: 10px;
+    border: 10px; } }
 
 /* fotos productos */
 .publi-productos {
@@ -75,7 +76,7 @@
   display: flex;
   justify-content: space-around; }
 
-@media (max-width: 100px) {
+@media (max-width: 1000px) {
   .publi-productos {
     flex-direction: column; } }
 
@@ -83,10 +84,13 @@
 footer {
   margin-top: 50px; }
 
-.tycfooter {
+.tycfooter, .tycfooter-deco {
   text-decoration: none;
   color: black;
   font-size: 30px; }
+
+.tycfooter-deco {
+  background-color: #bdbdbd; }
 
 .titulotyc {
   text-align: center;
@@ -126,11 +130,6 @@ footer {
 
 .texto-somos-parrafo {
   text-align: justify; }
-
-/* PAGINA PRODUCTOS */
-.tituloprod {
-  margin-left: 10px;
-  padding: 10px; }
 
 .contenedor {
   border: solid 1px black;

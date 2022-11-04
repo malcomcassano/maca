@@ -2,194 +2,195 @@ $pix: 10px;
 
 /* comentario en el encabezado */
 .topcoment {
-    background-color: rgb(24, 26, 145);
-    color: rgb(255, 255, 255);
-    margin: auto;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    padding: 15px;
+  background-color: rgb(24, 26, 145);
+  color: rgb(255, 255, 255);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px;
+}
+
+/* logo encabezado */
+.logo {
+  text-align: center;
+  padding-top: $pix*4;
+  padding-bottom: $pix*4;
+}
+
+/* animacion logo */
+.logo:hover {
+  animation-name: rotar;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes rotation {
+  0% {
+    transform: translateY(-500px);
   }
-  
-  /* logo encabezado */
-  .logo {
-    text-align: center;
-    padding-top: $pix*4;
-    padding-bottom: $pix*4;
+
+  50% {
+    transform: translateY(0);
   }
-  
-  /* animacion logo */
-  .logo:hover {
-    animation-name: rotar;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
+
+  100% {
+    transform: translateY(-500px);
   }
-  
-  @keyframes rotation {
-    0% {
-        transform: translateY(-500px);
-    }
-  
-    50% {
-        transform: translateY(0);
-    }
-  
-    100% {
-        transform: translateY(-500px);
-    }
+}
+
+@keyframes rotar {
+  0% {
+    transform: rotate(0);
   }
-  
-  @keyframes rotar {
-    0% {
-        transform: rotate(0);
-    }
-  
-    50% {
-        transform: rotate(80deg);
-    }
-  
-    100% {
-        transform: rotate(360deg);
-    }
+
+  50% {
+    transform: rotate(80deg);
   }
-  
-  /* formulario */
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* formulario */
+.formulario {
+  background-color: rgb(185, 185, 185);
+  text-align: justify;
+  padding-left: $pix*25;
+  padding-top: $pix*4;
+  padding-bottom: $pix*4;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 750px) {
   .formulario {
-    background-color: rgb(185, 185, 185);
-    text-align: justify;
-    padding-left: $pix*25;
-    padding-top: $pix*4;
-    padding-bottom: $pix*4;
-    font-family: 'Roboto', sans-serif;
+    padding-left: $pix*2;
   }
-  
-  @media (max-width: 750px) {
-    .formulario {
-        padding-left: $pix*2;
-    }
-  }
-  
-  /* PROMOCIONES */
+}
+
+/* PROMOCIONES */
+.promociones {
+  text-align: center;
+  padding-top: $pix*2;
+  margin: $pix*3;
+  /* flexbox promociones */
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 1200px) {
   .promociones {
-    text-align: center;
-    padding-top: $pix*4;
-    margin: $pix*5;
-    /* flexbox promociones */
-    display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    width: auto;
+    margin: 10px;
+    border: 10px;
   }
-  
-  @media only screen and (max-width: $pix*120) {
-    .promociones {
-        flex-direction: column;
-        width: auto;
-        margin: auto;
-    }
-  }
-  
-  /* fotos productos */
+}
+
+/* fotos productos */
+.publi-productos {
+  text-align: center;
+  padding-top: $pix*4;
+  margin: $pix*5;
+  /* flexbox promociones */
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 1000px) {
   .publi-productos {
-    text-align: center;
-    padding-top: $pix*4;
-    margin: $pix*5;
-    /* flexbox promociones */
-    display: flex;
-    justify-content: space-around;
+    flex-direction: column;
   }
-  
-  @media (max-width: $pix*10) {
-    .publi-productos {
-        flex-direction: column;
-    }
+}
+
+/* footer */
+footer {
+  margin-top: $pix*5;
+}
+
+.tycfooter {
+  text-decoration: none;
+  color: black;
+  font-size: $pix*3;
+}
+//extend
+.tycfooter-deco {
+  @extend .tycfooter;
+  background-color: #bdbdbd;
+}
+
+
+.titulotyc {
+  text-align: center;
+  padding: $pix*2;
+  margin-top: $pix*2;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.subtitulotyc {
+  padding: $pix*2;
+  text-align: center;
+}
+
+.tycparrafo {
+  text-align: justify;
+  padding: $pix*2;
+  border-left: $pix*2;
+  border-right: $pix*2;
+}
+
+/* logos redes pie de pagina */
+.logosredes {
+  padding: 5px;
+}
+
+.logored1 {
+  width: $pix*5;
+  height: $pix*5;
+}
+
+/* texto pagina formulario */
+.text-form {
+  margin-left: $pix;
+  margin-top: $pix;
+  margin-bottom: $pix;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* texto en pagina quienes somos */
+.texto-somos {
+  margin-left: $pix;
+  padding: $pix;
+}
+
+.texto-somos-parrafo {
+  text-align: justify;
+}
+
+.contenedor {
+  border: solid 1px black;
+  background-color: hsla(0, 2%, 73%, 0.616);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: $pix*3;
+  margin-right: $pix*3;
+}
+
+.productos-color {
+  background-color: #ffffff
+}
+
+.linkprod {
+  text-decoration: none;
+  margin-left: 5px;
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  .mercadopagologo {
+    width: -webkit-fill-available;
   }
-  
-  /* footer */
-  footer {
-    margin-top: $pix*5;
-  }
-  
-  .tycfooter {
-    text-decoration: none;
-    color: black;
-    font-size: $pix*3;
-  }
-  
-  .titulotyc {
-    text-align: center;
-    padding: $pix*2;
-    margin-top: $pix*2;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  
-  .subtitulotyc {
-    padding: $pix*2;
-    text-align: center;
-  }
-  
-  .tycparrafo {
-    text-align: justify;
-    padding: $pix*2;
-    border-left: $pix*2;
-    border-right: $pix*2;
-  }
-  
-  /* logos redes pie de pagina */
-  .logosredes {
-    padding: 5px;
-  }
-  
-  .logored1 {
-    width: $pix*5;
-    height: $pix*5;
-  }
-  
-  /* texto pagina formulario */
-  .text-form {
-    margin-left: $pix;
-    margin-top: $pix;
-    margin-bottom: $pix;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-  
-  /* texto en pagina quienes somos */
-  .texto-somos {
-    margin-left: $pix;
-    padding: $pix;
-  }
-  
-  .texto-somos-parrafo {
-    text-align: justify;
-  }
-  
-  /* PAGINA PRODUCTOS */
-  .tituloprod {
-    margin-left: $pix;
-    padding: $pix;
-  }
-  
-  .contenedor {
-    border: solid 1px black;
-    background-color: hsla(0, 2%, 73%, 0.616);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: $pix*3;
-    margin-right: $pix*3;
-  }
-  
-  .productos-color {
-    background-color: #ffffff
-  }
-  
-  .linkprod {
-    text-decoration: none;
-    margin-left: 5px;
-    text-align: center;
-  }
-  
-  @media (max-width: $pix*45) {
-    .mercadopagologo {
-        width: -webkit-fill-available;
-    }
-  }
+}
