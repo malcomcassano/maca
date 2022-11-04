@@ -38,19 +38,6 @@
   100% {
     transform: rotate(360deg); } }
 
-/* formulario */
-.formulario {
-  background-color: #b9b9b9;
-  text-align: justify;
-  padding-left: 250px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-family: 'Roboto', sans-serif; }
-
-@media (max-width: 750px) {
-  .formulario {
-    padding-left: 20px; } }
-
 /* PROMOCIONES */
 .promociones {
   text-align: center;
@@ -92,22 +79,6 @@ footer {
 .tycfooter-deco {
   background-color: #bdbdbd; }
 
-.titulotyc {
-  text-align: center;
-  padding: 20px;
-  margin-top: 20px;
-  font-family: 'Times New Roman', Times, serif; }
-
-.subtitulotyc {
-  padding: 20px;
-  text-align: center; }
-
-.tycparrafo {
-  text-align: justify;
-  padding: 20px;
-  border-left: 20px;
-  border-right: 20px; }
-
 /* logos redes pie de pagina */
 .logosredes {
   padding: 5px; }
@@ -115,21 +86,6 @@ footer {
 .logored1 {
   width: 50px;
   height: 50px; }
-
-/* texto pagina formulario */
-.text-form {
-  margin-left: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
-
-/* texto en pagina quienes somos */
-.texto-somos {
-  margin-left: 10px;
-  padding: 10px; }
-
-.texto-somos-parrafo {
-  text-align: justify; }
 
 .contenedor {
   border: solid 1px black;
@@ -150,3 +106,47 @@ footer {
 @media (max-width: 450px) {
   .mercadopagologo {
     width: -webkit-fill-available; } }
+
+/* texto en pagina quienes somos */
+.texto-somos {
+  margin-left: 10px;
+  padding: 10px; }
+
+.texto-somos-parrafo {
+  text-align: justify; }
+
+.titulotyc {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif; }
+
+.subtitulotyc {
+  padding: 20px;
+  text-align: center; }
+
+.tycparrafo {
+  text-align: justify;
+  padding: 20px;
+  border-left: 20px;
+  border-right: 20px; }
+
+/* formulario */
+.formulario {
+  background-color: #b9b9b9;
+  text-align: justify;
+  padding-left: 250px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: 'Roboto', sans-serif; }
+
+@media (max-width: 750px) {
+  .formulario {
+    padding-left: 20px; } }
+
+/* texto pagina formulario */
+.text-form {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }

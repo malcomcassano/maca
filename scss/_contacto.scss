@@ -1,0 +1,22 @@
+/* formulario */
+.formulario {
+    background-color: rgb(185, 185, 185);
+    text-align: justify;
+    padding-left: $pix*25;
+    padding-top: $pix*4;
+    padding-bottom: $pix*4;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  @media (max-width: 750px) {
+    .formulario {
+      padding-left: $pix*2;
+    }
+  }
+  /* texto pagina formulario */
+.text-form {
+    margin-left: $pix;
+    margin-top: $pix;
+    margin-bottom: $pix;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }

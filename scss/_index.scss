@@ -1,0 +1,116 @@
+/* comentario en el encabezado */
+.topcoment {
+    background-color: rgb(24, 26, 145);
+    color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+}
+
+/* logo encabezado */
+.logo {
+    text-align: center;
+    padding-top: $pix*4;
+    padding-bottom: $pix*4;
+}
+
+/* animacion logo */
+.logo:hover {
+    animation-name: rotar;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes rotation {
+    0% {
+        transform: translateY(-500px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-500px);
+    }
+}
+
+@keyframes rotar {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(80deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* PROMOCIONES */
+.promociones {
+    text-align: center;
+    padding-top: $pix*2;
+    margin: $pix*3;
+    /* flexbox promociones */
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1200px) {
+    .promociones {
+        flex-direction: column;
+        width: auto;
+        margin: 10px;
+        border: 10px;
+    }
+}
+
+/* fotos productos */
+.publi-productos {
+    text-align: center;
+    padding-top: $pix*4;
+    margin: $pix*5;
+    /* flexbox promociones */
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 1000px) {
+    .publi-productos {
+        flex-direction: column;
+    }
+}
+
+/* footer */
+footer {
+    margin-top: $pix*5;
+}
+
+.tycfooter {
+    text-decoration: none;
+    color: black;
+    font-size: $pix*3;
+}
+
+//extend
+.tycfooter-deco {
+    @extend .tycfooter;
+    background-color: #bdbdbd;
+}
+/* logos redes pie de pagina */
+.logosredes {
+    padding: 5px;
+  }
+  
+  .logored1 {
+    width: $pix*5;
+    height: $pix*5;
+  }
+  

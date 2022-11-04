@@ -1,0 +1,24 @@
+.contenedor {
+    border: solid 1px black;
+    background-color: hsla(0, 2%, 73%, 0.616);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: $pix*3;
+    margin-right: $pix*3;
+  }
+  
+  .productos-color {
+    background-color: #ffffff
+  }
+  
+  .linkprod {
+    text-decoration: none;
+    margin-left: 5px;
+    text-align: center;
+  }
+  
+  @media (max-width: 450px) {
+    .mercadopagologo {
+      width: -webkit-fill-available;
+    }
+  }
