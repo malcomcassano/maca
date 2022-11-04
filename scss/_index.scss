@@ -1,3 +1,7 @@
+@mixin alin-centro {
+    text-align: center
+}
+
 /* comentario en el encabezado */
 .topcoment {
     background-color: rgb(24, 26, 145);
@@ -12,7 +16,7 @@
 
 /* logo encabezado */
 .logo {
-    text-align: center;
+    @include alin-centro;
     padding-top: $pix*4;
     padding-bottom: $pix*4;
 }
@@ -55,7 +59,7 @@
 
 /* PROMOCIONES */
 .promociones {
-    text-align: center;
+    @include alin-centro;
     padding-top: $pix*2;
     margin: $pix*3;
     /* flexbox promociones */
@@ -74,7 +78,7 @@
 
 /* fotos productos */
 .publi-productos {
-    text-align: center;
+    @include alin-centro;
     padding-top: $pix*4;
     margin: $pix*5;
     /* flexbox promociones */
