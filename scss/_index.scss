@@ -19,14 +19,14 @@
     @include alin-centro;
     padding-top: $pix*4;
     padding-bottom: $pix*4;
-}
 
-/* animacion logo */
-.logo:hover {
-    animation-name: rotar;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
+    /* animacion logo */
+    &:hover {
+        animation-name: rotar;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in-out;
+    }
 }
 
 @keyframes rotation {
@@ -108,13 +108,13 @@ footer {
     @extend .tycfooter;
     background-color: #bdbdbd;
 }
+
 /* logos redes pie de pagina */
 .logosredes {
     padding: 5px;
-  }
-  
-  .logored1 {
+}
+
+.logored1 {
     width: $pix*5;
     height: $pix*5;
-  }
-  
+}
