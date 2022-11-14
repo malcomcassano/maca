@@ -1,13 +1,61 @@
 /* formulario */
-.formulario {
-    background-color: rgb(185, 185, 185);
-    text-align: justify;
-    padding-left: $pix*25;
-    padding-top: $pix*4;
-    padding-bottom: $pix*4;
-    font-family: 'Roboto', sans-serif;
-  }
-  
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  align-items: center;
+  justify-content: center;
+}
+
+.form-contact {
+  background-color: #fff;
+  width: 400px;
+  display: inline;
+  box-sizing: 7px 13px 37px;
+}
+
+.contact {
+  padding: .8rem;
+  overflow: hidden;
+  color: gray;
+}
+
+.contact label, .contact input, .contact textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+}
+.contact label {
+  font-weight: 700;
+}
+.contact input:not([type='submit']), .contact textarea {
+  border: none;
+  border-bottom: 2px solid #ff165d;
+  margin-bottom: 10px;
+  font-size: 20px;
+  outline: none;
+  color: gray;
+}
+.contact textarea {
+  min-height: 100px;
+}
+input[type='submit'] {
+  padding: 10px;
+  border: none;
+  background-color: #ff165d;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
   @media (max-width: 750px) {
     .formulario {
       padding-left: $pix*2;
