@@ -100,13 +100,13 @@ footer {
 .tycfooter {
     text-decoration: none;
     color: black;
-    font-size: $pix*3;
+    font-size: $pix*2;
 }
 
 //extend
 .tycfooter-deco {
     @extend .tycfooter;
-    background-color: #bdbdbd;
+    background-color: #eceaea;
 }
 
 /* logos redes pie de pagina */

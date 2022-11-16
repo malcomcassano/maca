@@ -73,10 +73,10 @@ footer {
 .tycfooter, .tycfooter-deco {
   text-decoration: none;
   color: black;
-  font-size: 30px; }
+  font-size: 20px; }
 
 .tycfooter-deco {
-  background-color: #bdbdbd; }
+  background-color: #eceaea; }
 
 /* logos redes pie de pagina */
 .logosredes {
@@ -191,4 +191,5 @@ input[type='submit'] {
   margin-left: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px; }
