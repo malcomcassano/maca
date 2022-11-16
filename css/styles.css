@@ -73,7 +73,9 @@ footer {
 .tycfooter, .tycfooter-deco {
   text-decoration: none;
   color: black;
-  font-size: 20px; }
+  font-size: 10px;
+  margin-top: 50px;
+  margin-left: 10px; }
 
 .tycfooter-deco {
   background-color: #eceaea; }

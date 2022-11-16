@@ -100,7 +100,9 @@ footer {
 .tycfooter {
     text-decoration: none;
     color: black;
-    font-size: $pix*2;
+    font-size: $pix;
+    margin-top: $pix*5;
+    margin-left: $pix;
 }
 
 //extend
@@ -117,4 +119,7 @@ footer {
 .logored1 {
     width: $pix*5;
     height: $pix*5;
+}
+.text.copy {
+
 }
